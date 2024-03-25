@@ -10,3 +10,6 @@ for(let i=0;i <botoes.length;i++){
         botoes[i].classList.add("ativo");
     }
 }
+const contadores=document.queryselectorAll("contador");
+const tempoObjetivo=new date("2024-03-25t00:00:");
+let tempo
